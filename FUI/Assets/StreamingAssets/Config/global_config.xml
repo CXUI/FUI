@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Config">
+  <Atlas name="图集">
+    <Sprite key="按钮图集" name="buttonspritesatlas" path="Sprites/buttonspritesatlas.sprite"></Sprite>
+    <Sprite key="器械图集" name="toolssprite" path="Sprites/toolssprite.sprite"></Sprite>
+    <Sprite key="手术器械图集" name="InstrumentsSprites" path="Sprites/InstrumentsSprites.sprite"></Sprite>
+  </Atlas>
+  <!--预加载的材质、贴图-->
+  <ToolsMaterials>
+    <!--<material name="fonts" path="ToolModels/fonts.model"></material>-->
+    <!--<material name="xpz_m_1" path="ToolModels/xpz_m_1.model"></material>
+    <material name="xpz_t_1" path="ToolModels/xpz_t_1.model"></material>
+    <material name="xpz_t_2" path="ToolModels/xpz_t_2.model"></material>
+    <material name="xpz_t_3" path="ToolModels/xpz_t_3.model"></material>
+    <material name="yzd_t_n" path="ToolModels/yzd_t_n.model"></material>
+    <material name="tool_t_1" path="ToolModels/tool_t_1.model"></material>
+    <material name="tools_m_2" path="ToolModels/tools_m_2.model"></material>
+    <material name="xpz_1" path="ToolModels/xpz_1.model"></material>
+    <material name="xpz_2" path="ToolModels/xpz_2.model"></material>
+    <material name="xpz_3" path="ToolModels/xpz_3.model"></material>-->
+    <!--<material name="toolstexture" path="ToolModels/toolstexture.model"></material>-->
+    <!--<material name="toolstexture" path="ToolModels/toolstexture.model"></material>-->
+  </ToolsMaterials>
+  <config path="/Config/path_config.xml"></config>
+  <!--<true:读取streamassets下的资源，false：读取服务器上的资源>-->
+  <local video="true" model="true"></local>
+  <Webgl path="http://www.unidraw.com/beta/xiangpizhang/"/>
+</Project>
